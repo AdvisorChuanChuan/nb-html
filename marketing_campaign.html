@@ -282,7 +282,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 .lm-Widget {
   box-sizing: border-box;
   position: relative;
-  overflow: hidden;
+  overflow: auto;
   cursor: default;
 }
 
@@ -339,7 +339,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 /* <DEPRECATED> */
 .p-CommandPalette-header, /* </DEPRECATED> */
 .lm-CommandPalette-header {
-  overflow: hidden;
+  overflow: auto;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
@@ -361,7 +361,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 .p-CommandPalette-itemContent, /* </DEPRECATED> */
 .lm-CommandPalette-itemContent {
   flex: 1 1 auto;
-  overflow: hidden;
+  overflow: auto;
 }
 
 /* <DEPRECATED> */
@@ -373,7 +373,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 /* <DEPRECATED> */
 .p-CommandPalette-itemLabel, /* </DEPRECATED> */
 .lm-CommandPalette-itemLabel {
-  overflow: hidden;
+  overflow: auto;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
@@ -516,7 +516,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
   z-index: 10000;
   position: absolute;
   white-space: nowrap;
-  overflow-x: hidden;
+  overflow-x: auto;
   overflow-y: auto;
   outline: none;
   -webkit-user-select: none;
@@ -662,7 +662,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 .lm-ScrollBar-track {
   box-sizing: border-box;
   position: relative;
-  overflow: hidden;
+  overflow: auto;
   flex: 1 1 auto;
 }
 
@@ -806,7 +806,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
   display: flex;
   flex-direction: row;
   box-sizing: border-box;
-  overflow: hidden;
+  overflow: auto;
   touch-action: none; /* Disable native Drag/Drop */
 }
 
@@ -823,7 +823,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 .p-TabBar-tabLabel, /* </DEPRECATED> */
 .lm-TabBar-tabLabel {
   flex: 1 1 auto;
-  overflow: hidden;
+  overflow: auto;
   white-space: nowrap;
 }
 
@@ -10756,7 +10756,7 @@ select {
 }
 
 .lm-CommandPalette-itemContent {
-  overflow: hidden;
+  overflow: auto;
 }
 
 .lm-CommandPalette-itemLabel > mark {
@@ -10944,7 +10944,7 @@ button.jp-Dialog-close-button {
 }
 
 .jp-Dialog-title {
-  overflow: hidden;
+  overflow: auto;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
@@ -11538,7 +11538,7 @@ select.jp-mod-styled {
   min-height: var(--jp-toolbar-micro-height);
   padding: 2px;
   z-index: 8;
-  overflow-x: hidden;
+  overflow-x: auto;
 }
 
 /* Toolbar items */
@@ -11738,7 +11738,7 @@ body.lm-mod-override-cursor * {
   width: 100px;
   border: solid 0.25px var(--jp-brand-color2);
   border-radius: 3px;
-  overflow: hidden;
+  overflow: auto;
   align-self: center;
 }
 .jp-Statusbar-ProgressBar-progress-bar > div {
@@ -11881,7 +11881,7 @@ body.lm-mod-override-cursor * {
 .CodeMirror-rulers {
   position: absolute;
   left: 0; right: 0; top: -50px; bottom: 0;
-  overflow: hidden;
+  overflow: auto;
 }
 .CodeMirror-ruler {
   border-left: 1px solid #ccc;
@@ -11941,14 +11941,14 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #a22;}
 
 .CodeMirror {
   position: relative;
-  overflow: hidden;
+  overflow: auto;
   background: white;
 }
 
 .CodeMirror-scroll {
   overflow: scroll !important; /* Things will break if this is overridden */
   /* 50px is the magic margin used to hide the element's real scrollbars */
-  /* See overflow: hidden in .CodeMirror */
+  /* See overflow: auto in .CodeMirror */
   margin-bottom: -50px; margin-right: -50px;
   padding-bottom: 50px;
   height: 100%;
@@ -11971,7 +11971,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #a22;}
 }
 .CodeMirror-vscrollbar {
   right: 0; top: 0;
-  overflow-x: hidden;
+  overflow-x: auto;
   overflow-y: scroll;
 }
 .CodeMirror-hscrollbar {
@@ -12082,7 +12082,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #a22;}
   position: absolute;
   width: 100%;
   height: 0;
-  overflow: hidden;
+  overflow: auto;
   visibility: hidden;
 }
 
@@ -12138,7 +12138,7 @@ span.CodeMirror-selectedtext { background: none; }
   background: inherit;
   z-index: 15;
   padding: .1em .8em;
-  overflow: hidden;
+  overflow: auto;
   color: inherit;
 }
 
@@ -13198,7 +13198,7 @@ h6:hover .jp-InternalAnchorLink {
   flex: 0 0 auto;
   display: flex;
   flex-direction: row;
-  overflow: hidden;
+  overflow: auto;
   border-top: var(--jp-border-width) solid var(--jp-border-color2);
   border-bottom: var(--jp-border-width) solid var(--jp-border-color1);
   box-shadow: var(--jp-toolbar-box-shadow);
@@ -13308,7 +13308,7 @@ h6:hover .jp-InternalAnchorLink {
 .jp-DirListing-itemText {
   flex: 1 0 64px;
   white-space: nowrap;
-  overflow: hidden;
+  overflow: auto;
   text-overflow: ellipsis;
   user-select: none;
 }
@@ -13401,7 +13401,7 @@ body[data-format='mobile'] .jp-OutputArea-child {
   /* Right align prompt text, don't wrap to handle large prompt numbers */
   text-align: right;
   white-space: nowrap;
-  overflow: hidden;
+  overflow: auto;
   text-overflow: ellipsis;
   /* Disable text selection */
   -webkit-user-select: none;
@@ -13491,7 +13491,7 @@ body.lm-mod-override-cursor .jp-OutputArea-output.jp-mod-isolated:before {
 
 .jp-OutputArea-output dl {
   width: 100%;
-  overflow: hidden;
+  overflow: auto;
   padding: 0;
   margin: 0;
 }
@@ -13660,7 +13660,7 @@ body.lm-mod-override-cursor .jp-OutputArea-output.jp-mod-isolated:before {
 .jp-InputArea {
   display: flex;
   flex-direction: row;
-  overflow: hidden;
+  overflow: auto;
 }
 
 body[data-format='mobile'] .jp-InputArea {
@@ -13669,7 +13669,7 @@ body[data-format='mobile'] .jp-InputArea {
 
 .jp-InputArea-editor {
   flex: 1 1 auto;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .jp-InputArea-editor {
@@ -13697,7 +13697,7 @@ body[data-format='mobile'] .jp-InputArea-editor {
   /* Right align prompt text, don't wrap to handle large prompt numbers */
   text-align: right;
   white-space: nowrap;
-  overflow: hidden;
+  overflow: auto;
   text-overflow: ellipsis;
   /* Disable text selection */
   -webkit-user-select: none;
@@ -14980,11 +14980,11 @@ a.anchor-link {
 
 /* Input area styling */
 .jp-InputArea {
-  overflow: hidden;
+  overflow: auto;
 }
 
 .jp-InputArea-editor {
-  overflow: hidden;
+  overflow: auto;
 }
 
 .CodeMirror.cm-s-jupyter .highlight pre {
