@@ -1,3 +1,5 @@
+# Marketing Campaign
+
 **Data Set Information:**
 
 The dataset includes various types of information about customers who have been in contact with a company. The features of the dataset include demographic information (year of birth, education level, marital status, income), household composition (number of small children and teenagers), customer relationship with the company (date of enrollment, number of days since the last purchase, number of visits to the company's website in the last month, whether or not they complained in the last two years), spending habits (amount spent on various product categories in the last two years, number of purchases made with discount, through the company's website, using a catalogue, directly in stores), participation in marketing campaigns (whether they accepted the offer in the previous five campaigns), and financial measures related to the customer contact (cost of the contact, revenue of the contact). The dependent variable, or target, is whether or not the customer accepted the offer in the last campaign (a boolean value).
